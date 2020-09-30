@@ -1,31 +1,31 @@
-// // if-else
+// if-else
 
-// var nama = prompt('Nama harus diisi!: ');
-// var benar = true;
-// while (benar) {
-// var peran = prompt(`Halo, ${nama}, Pilih peranmu untuk memulai game! (pilih 1-3, Penyihir: 1, Guard: 2, Werewolf: 3) `);
+var nama = prompt('Nama harus diisi!: ');
+var benar = true;
+while (benar) {
+var peran = prompt(`Halo, ${nama}, Pilih peranmu untuk memulai game! (pilih 1-3, Penyihir: 1, Guard: 2, Werewolf: 3) `);
 
 
-//     if (peran == '1') {
-//         alert(`Selamat Datang di Dunia Werewolf, ${nama}`)
-//         alert(`Halo, Penyihir ${nama}, kamu dapat melihat siapa yang menjadi Werewolf!`)
-//         benar = false;
-//     } else if (peran == '2') {
-//         alert(`Selamat Datang di Dunia Werewolf, ${nama}`)
-//         alert(`Halo, Guard ${nama}, kamu akan membantu melindungi temanmu dari serangan werewolf.`)
-//         benar = false;
-//     } else if (peran == '3') {
-//         alert(`Selamat Datang di Dunia Werewolf, ${nama}`)
-//         alert(`Halo, Werewolf ${nama}, kamu akan memakan mangsa setiap malam!`)
-//         benar = false;
-//     } else {
-//         alert('Anda memasukkan nomor yang salah / memasukkan huruf');
-//         benar = false;
-//         benar = confirm('Apakah anda ingin mengulang?');
-//     }
+    if (peran == '1') {
+        alert(`Selamat Datang di Dunia Werewolf, ${nama}`)
+        alert(`Halo, Penyihir ${nama}, kamu dapat melihat siapa yang menjadi Werewolf!`)
+        benar = false;
+    } else if (peran == '2') {
+        alert(`Selamat Datang di Dunia Werewolf, ${nama}`)
+        alert(`Halo, Guard ${nama}, kamu akan membantu melindungi temanmu dari serangan werewolf.`)
+        benar = false;
+    } else if (peran == '3') {
+        alert(`Selamat Datang di Dunia Werewolf, ${nama}`)
+        alert(`Halo, Werewolf ${nama}, kamu akan memakan mangsa setiap malam!`)
+        benar = false;
+    } else {
+        alert('Anda memasukkan nomor yang salah / memasukkan huruf');
+        benar = false;
+        benar = confirm('Apakah anda ingin mengulang?');
+    }
 
-// }
-//         alert('Terima kasih telah bermain');
+}
+        alert('Terima kasih telah bermain');
 
 
 

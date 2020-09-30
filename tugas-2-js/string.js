@@ -10,6 +10,8 @@ var seventh = 'it!';
 
 console.log(`${word} ${second} ${third} ${fourth} ${fifth} ${sixth} ${seventh}`);
 
+console.log("---pembatas---");
+
 // end
 
 // Soal No. 2 Mengurai Kalimat(Akses karakter dalam string)
@@ -29,6 +31,8 @@ console.log(`Eight Word: ${arSentence[7]}`);
 
 // end
 
+console.log("---pembatas---");
+
 // Soal No. 3 Mengurai Kalimat (Subtring)
 
 var sentence2 = 'wow JavaScript is so cool';
@@ -45,6 +49,10 @@ console.log(thirdWord2);
 console.log(fourthWord2);
 console.log(fifthWord2);
 
+// end
+
+console.log("---pembatas---");
+
 // Soal No.4 Mengurangi Kalimat dan Menentukan Panjang String
 
 var sentence3 = 'wow JavaScript is so cool';
@@ -58,3 +66,4 @@ console.log(`${arWord[2]}: ${arSentence3[2]}, with length: 2`);
 console.log(`${arWord[3]}: ${arSentence3[3]}, with length: 2`);
 console.log(`${arWord[4]}: ${arSentence3[4]}, with length: 4`);
 
+// end
