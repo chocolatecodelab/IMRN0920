@@ -68,7 +68,7 @@ for(let x = 0; x < ukuran; x++){
         if((y + x) % 2 == 0) {
             zigzag += " ";
         } else {
-            zigzag += "#"
+            zigzag += "#";
         }
     }
     zigzag += "\n";
