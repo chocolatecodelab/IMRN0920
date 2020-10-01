@@ -1,4 +1,5 @@
-// No.1 Looping While
+console.log("No.1 Looping While");
+console.log("LOOPING PERTAMA");
 let x = 1;
 while(x <= 20) {
   if(x % 2 == 0){
@@ -7,8 +8,11 @@ while(x <= 20) {
   x++;
 };
 
+console.log("\n");
 console.log("---pembatas---");
+console.log('\n');
 
+console.log("LOOPING KEDUA");
 let y = 20;
 while(x > 0){
     if(x % 2 == 0) {
@@ -16,10 +20,8 @@ while(x > 0){
     }
     x--;
 }
-
-// No. 2 Looping for
-
-console.log("---pembatas---");
+console.log("\n");
+console.log("No 2 Looping For");
 
 for(let i = 1; i <= 20; i++) {
    if(i % 2 != 0 && i % 3 == 0 ) {
@@ -32,7 +34,8 @@ for(let i = 1; i <= 20; i++) {
     
 }
 
-console.log("---pembatas---");
+console.log("\n");
+console.log("No. 3 Looping For");
 
 let z = '';
 for(let a = 0; a < 4; a++){
@@ -43,7 +46,9 @@ for(let a = 0; a < 4; a++){
 }
 console.log(z);
 
-console.log("---pembatas---");
+console.log("\n");
+console.log("No. 4 Looping For");
+
 
 let t = '';
 for(let c = 0; c < 7; c++) {
@@ -55,7 +60,9 @@ for(let c = 0; c < 7; c++) {
 
 console.log(t);
 
-console.log("---pembatas---");
+console.log("\n");
+console.log("no. 5 Looping For");
+
 
 let ukuran = 8;
 let zigzag = "";
