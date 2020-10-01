@@ -8,10 +8,6 @@ while(x <= 20) {
   x++;
 };
 
-console.log("\n");
-console.log("---pembatas---");
-console.log('\n');
-
 console.log("LOOPING KEDUA");
 let y = 20;
 while(x > 0){
