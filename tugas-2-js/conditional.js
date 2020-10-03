@@ -37,7 +37,7 @@ var peran = prompt(`Halo, ${nama}, Pilih peranmu untuk memulai game! (pilih 1-3,
     if (! tanggal < 1 || tanggal > 31) {
         bulan = Number(prompt('Silahkan Masukkan Bulan ke-(pilih 1-12): '))
         switch(bulan) {
-            case 1  :{bulan = "Januari"; break;}
+            case 1  : {bulan = "Januari"; break;}
             case 2  : {bulan = "Februari"; break;}
             case 3  : {bulan = "Maret"; break;}
             case 4  : {bulan = "April"; break;}
