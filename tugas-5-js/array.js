@@ -92,37 +92,65 @@ console.log(sum());
 console.log("---------");
 console.log("No. 4");
 
-const input = [
-    ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
-    ["0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar"],
-    ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
-    ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
-];
+// const input = [
+//     ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"],
+//     ["0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar"],
+//     ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
+//     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
+// ];
 
-console.log(`Nomor ID: ${input[0][0]}`);
-console.log(`Nama Lengkap: ${input[0][1]}`);
-console.log(`TTL: ${input[0][2]} ${input[0][3]}`);
-console.log(`Hobi: ${input[0][4]}`);
+// console.log(`Nomor ID: ${input[0][0]}`);
+// console.log(`Nama Lengkap: ${input[0][1]}`);
+// console.log(`TTL: ${input[0][2]} ${input[0][3]}`);
+// console.log(`Hobi: ${input[0][4]}`);
+// console.log('\n');
+
+// console.log(`Nomor ID: ${input[1][0]}`);
+// console.log(`Nama Lengkap: ${input[1][1]}`);
+// console.log(`TTL: ${input[1][2]} ${input[1][3]}`);
+// console.log(`Hobi:  ${input[1][4]}`);
+// console.log('\n');
+
+// console.log(`Nomor ID: ${input[2][0]}`);
+// console.log(`Nama Lengkap: ${input[2][1]}`);
+// console.log(`TTL: ${input[2][2]} ${input[2][3]}`);
+// console.log(`Hobi:  ${input[2][4]}`);
+// console.log('\n');
+
+// console.log(`Nomor ID: ${input[3][0]}`);
+// console.log(`Nama Lengkap: ${input[3][1]}`);
+// console.log(`TTL: ${input[3][2]} ${input[3][3]}`);
+// console.log(`Hobi: ${input[3][4]}`);
+// console.log('\n');
+
+// console.log("-----------");
+
+function datahandling(noId, namaLengkap, tempatLahir, tanggalLahir, hobi) {
+    let array = [
+        [noId, namaLengkap, tempatLahir, tanggalLahir, hobi]
+    ];
+
+    console.log(`Nomor ID: ${array[0][0]}`);
+    console.log(`Nama Lengkap: ${array[0][1]}`);
+    console.log(`TTL: ${array[0][2]} ${array[0][3]}`);
+    console.log(`Hobi: ${array[0][4]}`);
+    
+}
+
+
+
+
+
+
+
+
+datahandling("0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca");
 console.log('\n');
-
-console.log(`Nomor ID: ${input[1][0]}`);
-console.log(`Nama Lengkap: ${input[1][1]}`);
-console.log(`TTL: ${input[1][2]} ${input[1][3]}`);
-console.log(`Hobi:  ${input[1][4]}`);
+datahandling("0002", "Dika Sembiring", "Medan", "10/10/1992", "Bermain Gitar");
 console.log('\n');
-
-console.log(`Nomor ID: ${input[2][0]}`);
-console.log(`Nama Lengkap: ${input[2][1]}`);
-console.log(`TTL: ${input[2][2]} ${input[2][3]}`);
-console.log(`Hobi:  ${input[2][4]}`);
+datahandling("0003", "Winona", "Ambon", "25/12/1965", "Memasak");
 console.log('\n');
-
-console.log(`Nomor ID: ${input[3][0]}`);
-console.log(`Nama Lengkap: ${input[3][1]}`);
-console.log(`TTL: ${input[3][2]} ${input[3][3]}`);
-console.log(`Hobi: ${input[3][4]}`);
-console.log('\n');
-
+datahandling("0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun");
 console.log("-----------");
 
 console.log("No. 5")
