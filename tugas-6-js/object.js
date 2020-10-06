@@ -102,6 +102,9 @@ function naikAngkot(listPenumpang) {
     const rute = ["A", "B", "C", "D", "E", "F"];
     const arrPenumpang = listPenumpang;
     const arrPenumpangAkhir = [];
+    if(listPenumpang === []){
+        return [];
+    }
     
 
     for(let i = 0; i < arrPenumpang.length; i++){
@@ -138,6 +141,7 @@ const dimitri = [
     ["Dimitri", "B", "F"], ["Icha", "A", "B"]
 ];
 console.log(naikAngkot(dimitri));
+console.log(naikAngkot([]));
 
 
 
