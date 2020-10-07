@@ -9,14 +9,26 @@ golden();
 console.log("--------");
 console.log("No. 2");
 
-const newFunction = (first, last) => {
-    const firstName = {first};
-    const lastName = {last};
-    console.log(`${firstName.first} ${lastName.last}`);
+// contoh 1
+// const newFunction = (first, last) => {
+//     const firstName = {first};
+//     const lastName = {last};
+//     console.log(`${firstName.first} ${lastName.last}`);
 
-} 
+// } 
 
-newFunction("william", "Imoh");
+// contoh 2
+const newFunction = (firstName, lastName) => {
+  return {
+    firstName,
+    lastName,
+    fullName() {
+      console.log(firstName, lastName);
+    }
+  }
+}
+
+newFunction("william", "Imoh").fullName();
 
 console.log("------");
 console.log("No. 3");
