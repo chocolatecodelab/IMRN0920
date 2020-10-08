@@ -39,7 +39,6 @@ console.log(sheep.cold_blooded);
 console.log("Release 1");
 console.log("-------");
 
-
 class Frog extends Animal {
     constructor(name, legs){
         super(name, legs);
@@ -52,8 +51,7 @@ class Frog extends Animal {
 
 class Ape extends Animal {
     constructor(name, legs){
-        super(name);
-        this.legs = legs;
+        super(name, legs);
     }
 
     yell() {
@@ -71,43 +69,43 @@ console.log("-------");
 console.log("No. 2");
 
 
-class Clock {
-    constructor({template}) {
-    var timer;
-        function render() {
-        var date = new Date();
+// class Clock {
+//     constructor({template}) {
+//     var timer;
+//         function render() {
+//         var date = new Date();
     
-        var hours = date.getHours();
-        if (hours < 10) hours = '0' + hours;
+//         var hours = date.getHours();
+//         if (hours < 10) hours = '0' + hours;
     
-        var mins = date.getMinutes();
-        if (mins < 10) mins = '0' + mins;
+//         var mins = date.getMinutes();
+//         if (mins < 10) mins = '0' + mins;
     
-        var secs = date.getSeconds();
-        if (secs < 10) secs = '0' + secs;
+//         var secs = date.getSeconds();
+//         if (secs < 10) secs = '0' + secs;
     
-        var output = template
-            .replace('h', hours)
-            .replace('m', mins)
-            .replace('s', secs);
+//         var output = template
+//             .replace('h', hours)
+//             .replace('m', mins)
+//             .replace('s', secs);
     
-        console.log(output);
-        }
+//         console.log(output);
+//         }
     
-        this.stop = function() {
-        clearInterval(timer);
-        };
+//         this.stop = function() {
+//         clearInterval(timer);
+//         };
     
-        this.start = function() {
-        render();
-        timer = setInterval(render, 1000);
-        };
-    }
-}    
+//         this.start = function() {
+//         render();
+//         timer = setInterval(render, 1000);
+//         };
+//     }
+// }    
 
 
 
-const clock = new Clock({template: 'h:m:s'});
-clock.start(); 
+// const clock = new Clock({template: 'h:m:s'});
+// clock.start(); 
 
 
